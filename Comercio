@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calaverita del Comercio Internacional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lora', serif;
+            background-color: #6B0848; /* Fondo violeta oscuro */
+            color: #FFC300; /* Texto amarillo brillante */
+            line-height: 1.6;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease-in-out;
+            padding: 20px;
+            background-image: radial-gradient(circle at top left, #6B0848, #A40A3C 50%, #EC610A 100%);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            color: #FFC300;
+            margin-bottom: 20px;
+            font-size: 3.5rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .calaverita-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #A40A3C; /* Fondo rojo oscuro */
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .calaverita-container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        p {
+            font-size: 1.6rem;
+            color: #FFC300;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+        }
+
+        .icon-calaverita {
+            margin-bottom: 20px;
+        }
+
+        .icon-calaverita img {
+            width: 100px;
+            height: auto;
+        }
+
+        /* Estilo decorativo para elementos de Día de Muertos */
+        .decoracion {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .decoracion img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+
+            .decoracion img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Calaverita del Comercio Internacional</h1>
+
+    <!-- Elementos decorativos arriba -->
+    <div class="decoracion">
+        <img src="https://unsplash.com/es/fotos/un-primer-plano-de-un-ramo-de-flores-amarillas-L6kAu-LJ7u8" alt="Icono Calavera">
+        <img src="URL_DE_IMAGEN_FLOR" alt="Icono Flor">
+        <img src="URL_DE_IMAGEN_CEMPASUCHIL" alt="Icono Cempasúchil">
+    </div>
+
+    <div class="calaverita-container">
+        <div class="icon-calaverita">
+            <img src="URL_DE_IMAGEN_CALAVERA" alt="Icono Calaverita">
+        </div>
+        <p>
+            En la universidad, la muerte llegó,<br>
+            con su traje elegante y un gran sombrero.<br>
+            Buscó a los de Comercio, con gran emoción,<br>
+            “Vengan, mis queridos, ¡les traigo lección!”
+        </p>
+        <p>
+            “Con puertos y aduanas, su futuro es brillar,<br>
+            con tratados y cifras, ¡no dejen de negociar!<br>
+            A través de fronteras, su ingenio deberán usar,<br>
+            pero cuidado, jovencitos, que yo les voy a llevar”.
+        </p>
+        <p>
+            Los estudiantes rieron, llenos de ambición,<br>
+            “Si viene la muerte, habrá negociación.<br>
+            Con importaciones, exportaciones sin fin,<br>
+            con cada documento, ¡vamos a ganar por fin!”
+        </p>
+        <p>
+            La Catrina sonrió, y a todos sorprendió,<br>
+            “Con su mente astuta, ¡verán que yo soy yo!<br>
+            Pero no olviden nunca, en su afán de triunfar,<br>
+            que en el comercio hay reglas, que deben respetar”.
+        </p>
+        <p>
+            “Así que estudien bien, con gran devoción,<br>
+            pues en el comercio, hay que tener precaución.<br>
+            Y cuando se acerque la muerte, con su andar,<br>
+            recuerden que el comercio, es un arte sin par”.
+        </p>
+        <p>
+            Y así, en la universidad, entre risas y cuentos,<br>
+            los de Comercio Internacional celebran sus talentos.<br>
+            La muerte no asusta, en este andar,<br>
+            pues con cada transacción, ¡hay mucho que ganar!
+        </p>
+    </div>
+
+    <!-- Elementos decorativos abajo -->
+    <div class="decoracion">
+        <img src="https://unsplash.com/es/fotos/un-primer-plano-de-un-ramo-de-flores-amarillas-L6kAu-LJ7u8" alt="Icono Cempasúchil">
+        <img src="URL_DE_IMAGEN_FLOR" alt="Icono Flor">
+        <img src="URL_DE_IMAGEN_CALAVERA" alt="Icono Calavera">
+    </div>
+
+</body>
+</html>
